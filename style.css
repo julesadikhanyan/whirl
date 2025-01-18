@@ -25,6 +25,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
+    color: #33383F;
 }
 
 .logo {
@@ -45,7 +46,7 @@
     column-gap: 24px;
 }
 
-.header__buttons {
+.header__buttons, .hero__buttons {
     display: flex;
     column-gap: 31px;
 }
@@ -64,4 +65,30 @@
     background-color: #0070A0;
     color: #FFFFFF; 
     padding: 6px 20px;  
+}
+
+.hero {
+    color: #1F1F1F;
+    padding: 23px 155px;
+    display: flex;
+    justify-content: center;
+    column-gap: 80px;
+}
+
+.hero__text-content {
+    padding-top: 50px;
+}
+
+.hero__title {
+    font-size: 58px;
+    line-height: 64px;
+    max-width: 485px;
+    padding-bottom: 24px;
+}
+
+.hero__subtitle {
+    font-size: 20px;
+    line-height: 30px;
+    max-width: 340px;
+    padding-bottom: 29px;
 }
