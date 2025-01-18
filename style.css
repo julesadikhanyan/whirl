@@ -2,11 +2,12 @@
     margin: 0;
 }
 
-.page {
+.page, .button {
     font-family: "Inter", serif;
     font-optical-sizing: auto;
     font-weight: 400;
     font-style: normal;
+    font-size: 15px;
 }
 
 .title {
@@ -17,4 +18,50 @@
     font-variation-settings:
         "SOFT" 0,
         "WONK" 0;
+}
+
+.header {
+    padding: 19px 155px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    display: inline-block;
+}
+
+.logo__image {
+    display: block;
+}
+
+.list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.menu__list {
+    display: flex;
+    column-gap: 24px;
+}
+
+.header__buttons {
+    display: flex;
+    column-gap: 31px;
+}
+
+.text-button, .primary-button {
+    border: none;
+}
+
+.text-button {
+    background: none;
+    color: #0070A0;
+    padding: 0;
+}
+
+.primary-button {
+    background-color: #0070A0;
+    color: #FFFFFF; 
+    padding: 6px 20px;  
 }
