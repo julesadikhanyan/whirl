@@ -68,11 +68,14 @@
 }
 
 .hero {
-    color: #1F1F1F;
-    padding: 23px 155px;
+    padding: 25px 155px;
     display: flex;
     justify-content: center;
     column-gap: 80px;
+}
+
+.hero, .clients {
+    color: #1F1F1F;
 }
 
 .hero__text-content {
@@ -91,4 +94,20 @@
     line-height: 30px;
     max-width: 340px;
     padding-bottom: 29px;
+}
+
+.clients {
+    padding: 25px;
+}
+
+.clients__title {
+    font-size: 24px;
+    text-align: center;
+    padding-bottom: 25px;
+}
+
+.clients__list {
+    display: flex;
+    justify-content: center;
+    column-gap: 60px;
 }
